@@ -1,7 +1,7 @@
 $("#button").click(function() {
     $.ajax({
         method: "GET",
-        url: "http://aws.random.cat/meow"
+        url: "https://aws.random.cat/meow"
     }).done(function(cat) {
         $.ajax({
             method: "GET",
